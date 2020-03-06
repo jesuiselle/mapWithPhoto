@@ -4,5 +4,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo link
 
-Please navigate to `https://map-with-gallery.firebaseapp.com/`.
+Please navigate to (https://map-with-gallery.firebaseapp.com/).
 
