@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+app-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@keyframes dots {
+  50% {
+    transform: translateY(-.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.d {
+  animation: dots 1.5s ease-out infinite;
+}
+.d-2 {
+  animation-delay: .5s;
+}
+.d-3 {
+  animation-delay: 1s;
+}

@@ -1,0 +1,15 @@
+<div class="content-section introduction">
+  <div>
+    <span class="feature-title"><h3>Gallery with map</h3></span>
+  </div>
+</div>
+
+<div class="content-section implementation">
+
+  <p-gmap #gmap [style]="&#123;'width':'100%','height':'320px'&#125;" [options]="options" [overlays]="overlays" (onOverlayClick)="handleOverlayClick($event)"></p-gmap>
+  <!--<button type="button" pButton label="Clear" icon="fa-close" (click)="clear()" style="margin-top:10px"></button>-->
+  <button type="button" pButton label="Zoom In" icon="fa-search-plus" (click)="zoomIn(gmap.getMap())" style="margin-top:10px"></button>
+  <button type="button" pButton label="Zoom Out" icon="fa-search-minus" (click)="zoomOut(gmap.getMap())" style="margin-top:10px"></button>
+
+</div>
+
